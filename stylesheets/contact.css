@@ -1,0 +1,32 @@
+h1{
+	color: #bcbcbc;
+	text-align: center;
+}
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#myform {
+     padding: 20px;
+     color:#bcbcbc;
+     width: 55%;
+     margin: 0px auto 0px;
+
+}
+input[type=submit] {
+    background-color: #FFD6D6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    float: right;
+    font-size:13px;
+}
+input[type=submit]:hover {
+    background-color: #FFE4D5;
+}

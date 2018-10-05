@@ -1,0 +1,66 @@
+body{
+	background-color: #FFFFE1;
+	font-family: 'Roboto', sans-serif;
+}
+
+#titlecontainer{
+	height:100px;
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+.buttons{
+	background-color: #FFD6D6;
+	border:none;
+	color:white;
+	padding:10px;
+	text-align: center;
+	display:inline-block;
+	font-size:13px;
+	border-radius: 12px;
+	transition: all 0.5s;
+  	cursor: pointer;
+
+}
+.buttons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons:hover span {
+  padding-right: 25px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttons:hover{
+	background-color: #FFE4D5;
+}
+
+#button1{
+	position: absolute;
+	top: 10px;
+	right:200px;
+}
+#button2{
+	position: absolute;
+	top:10px;
+	right:110px;
+}
+#button3{
+	position: absolute;
+	top: 10px;
+	right:10px;
